@@ -45,4 +45,3 @@ router.post(
     ], usuariosPost); 
 
 module.exports = router;
-

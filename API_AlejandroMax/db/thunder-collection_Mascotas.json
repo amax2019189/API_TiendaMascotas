@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Mascotas",
+    "dateExported": "2024-02-09T17:52:10.498Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "21ff3325-5a59-46f9-a1d8-e9881ea57c51",
+            "colId": "e0fa75c3-43c3-41d0-9ce5-3ac3df28da70",
+            "containerId": "",
+            "name": "mascotaPost",
+            "url": "http://localhost:3000/api/mascotas",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-09T16:29:59.023Z",
+            "modified": "2024-02-09T16:48:45.339Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Fichulais\",\n  \"especie\": \"Perro, Sin Raza\",\n  \"sexo\": \"Macho\",\n  \"peso\": \"35 lb\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "45c377b2-76f0-44b2-85ab-da4f68f2570e",
+            "colId": "e0fa75c3-43c3-41d0-9ce5-3ac3df28da70",
+            "containerId": "",
+            "name": "mascotasGet",
+            "url": "http://localhost:3000/api/mascotas",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-09T17:15:03.366Z",
+            "modified": "2024-02-09T17:17:24.894Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c622c92d-a155-441e-95c9-9d4c64ff2fde",
+            "colId": "e0fa75c3-43c3-41d0-9ce5-3ac3df28da70",
+            "containerId": "",
+            "name": "getMascotaById",
+            "url": "http://localhost:3000/api/mascotas/65c6576d2f7efc3e9d946c42",
+            "method": "GET",
+            "sortNum": 25000,
+            "created": "2024-02-09T17:41:22.129Z",
+            "modified": "2024-02-09T17:42:11.095Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d8a23b5f-8d1f-4467-a7ec-913d40e0d7eb",
+            "colId": "e0fa75c3-43c3-41d0-9ce5-3ac3df28da70",
+            "containerId": "",
+            "name": "mascotasPut",
+            "url": "http://localhost:3000/api/mascotas/65c656d22f7efc3e9d946c40",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-02-09T17:27:50.861Z",
+            "modified": "2024-02-09T17:32:54.149Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Canelo\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "46aa2f08-e131-4269-bb4d-e932dca02f93",
+            "colId": "e0fa75c3-43c3-41d0-9ce5-3ac3df28da70",
+            "containerId": "",
+            "name": "mascotaDelete",
+            "url": "http://localhost:3000/api/mascotas/65c656d22f7efc3e9d946c40",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-02-09T17:38:44.010Z",
+            "modified": "2024-02-09T17:39:40.505Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
